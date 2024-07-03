@@ -1,8 +1,8 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 ---
 
 <!doctype html>
@@ -13,38 +13,38 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 	<body>
 		<Header />
 		<main>
-			<h1>Selamat Datang, Di Blog Saya! 🔥</h1>
+			<h4>Selamat Datang, Di Blog Saya!👋</h4></h4>
 			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
-				template serves as a lightweight, minimally-styled starting point for anyone looking to build
-				a personal website, blog, or portfolio with Astro.
+				Hallo semuanya Terimakasih Sudah Mampir, Di website ini saya akan membagikan toturial-tutorial seputar dunia it, <span style="color: white;">Selamat Membaca dan Selamat Belajar.🔥</span>
 			</p>
 			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
+				saya menulis toturial pendek dan panjang, tentang dunia teknologi khususnya di <span style="color: white;">Web Development </span>. <a href="/about">Tentang saya..</a>
 			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to <a href="https://docs.astro.build/"
-					>read the docs
-				</a> or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out <a
-					href="https://github.com/Charca/astro-blog-template"
-					>astro-blog-template
-				</a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
+			<p></p>
+			<br>
+			<div class="container">
+				<a href="/blog" class="button">
+					<div class="button__content">
+						<span class="button__text">Mulai Membaca</span>
+						<i class="fa-solid fa-book-open button__icon"></i>
+		
+						<div class="button__reflection-1"></div>
+						<div class="button__reflection-2"></div>
+					</div>
+		
+					<img src="book-black-cover-closed_32354.png" alt="" class="button__star-1">
+					<img src="book-black-cover-closed_32354.png" alt="" class="button__star-2">
+					<img src="draw.png" alt="" class="button__circle-1">
+					<img src="open-book_171322.png" alt="" class="button__circle-2">
+					<img src="reading-sign_icon-icons.com_68507.png" alt="" class="button__diamond">
+					<img src="readinglamp_120979.png" alt="" class="button__triangle">
+		
+					<div class="button__shadow"></div>
+				</a>
+			</div>
 		</main>
 		<Footer />
 	</body>
 </html>
+
+
