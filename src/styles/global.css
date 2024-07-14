@@ -351,3 +351,23 @@ a {
 	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
 }
+
+  .link{
+    width: 100%;
+    height: 50px;
+  }
+  .left{
+    float: left;
+    display: block;
+  }
+  .right{
+    float: right;
+    display: block;
+  }
+.link ul a{
+  padding: 10px;
+  color: white;
+}
+.link ul a:hover {
+    color:gray;
+}
